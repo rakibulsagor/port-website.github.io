@@ -73,3 +73,33 @@
 ---
 
 Would you like me to help you add these features one by one into your actual React codebase? I can also write sample code for each section based on your goals or profession.
+
+
+
+# My Portfolio React
+
+This project is a React-based portfolio website to showcase my projects, skills, and contact information.
+
+## Features
+- **React**: Modern React components and hooks.
+- **Tailwind CSS**: Styling with utility-first CSS.
+- **Responsive**: Optimized for mobile and desktop devices.
+
+## Scripts
+- `npm start`: Launch the development server.
+- `npm build`: Build the app for production.
+
+## Project Structure
+- `public/`: Contains static assets like `index.html`.
+- `src/`: Contains React components, pages, and assets.
+  - `assets/`: Images and resume files.
+  - `components/`: Reusable UI components like `Navbar` and `Footer`.
+  - `pages/`: Page components like `Home`, `About`, etc.
+
+## How to Use
+1. Clone the repo: `git clone https://github.com/rakibulsagor/my-portfolio-react.git`
+2. Install dependencies: `npm install`
+3. Start the development server: `npm start`
+
+## License
+This project is licensed under the MIT License.
