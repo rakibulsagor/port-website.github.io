@@ -3,9 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Rakibul's Portfolio</title>
+    <link rel="stylesheet" href="../src/App.css">
 </head>
 <body>
-    <div id="root"></div>
+    <header>
+        <nav class="navbar">
+            <h1>Rakibul's Portfolio</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero">
+        <h2>Welcome to My Portfolio</h2>
+        <p>Hi, I'm Rakibul, a passionate front-end developer specializing in modern web technologies.</p>
+        <button onclick="location.href='#projects'">Explore Projects</button>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>
+            I am a front-end developer with expertise in React, Tailwind CSS, and JavaScript frameworks.
+            My passion is creating user-centric, responsive, and visually appealing web applications.
+        </p>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="project-card">
+            <h3>Project 1: Portfolio Website</h3>
+            <p>A modern and responsive portfolio website built with React and Tailwind CSS.</p>
+            <a href="https://github.com/rakibulsagor/portfolio" target="_blank">GitHub</a>
+            <a href="#">Live Demo</a>
+        </div>
+        <div class="project-card">
+            <h3>Project 2: E-commerce Platform</h3>
+            <p>An e-commerce platform with React front-end and Node.js back-end.</p>
+            <a href="https://github.com/rakibulsagor/ecommerce" target="_blank">GitHub</a>
+            <a href="#">Live Demo</a>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>© 2025 Rakibul. All rights reserved.</p>
+        <ul>
+            <li><a href="https://linkedin.com/in/rakibul" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/rakibulsagor" target="_blank">GitHub</a></li>
+            <li><a href="https://twitter.com/rakibul" target="_blank">Twitter</a></li>
+        </ul>
+    </footer>
 </body>
 </html>
